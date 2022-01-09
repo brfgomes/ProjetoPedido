@@ -12,7 +12,7 @@ namespace ProjetoPedido.Classes
         ~Cliente()
         {}
 
-        private int IdCliente = 0;
+        private int IdCliente;
         private string NomeCliente = null;
 
         public int IDCLIENTE
