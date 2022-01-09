@@ -1,0 +1,15 @@
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ProjetoPedido.csproj.AssemblyReference.cache
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ProjetoPedido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ProjetoPedido.AssemblyInfoInputs.cache
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ProjetoPedido.AssemblyInfo.cs
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ProjetoPedido.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\bin\Debug\net6.0\ProjetoPedido.exe
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\bin\Debug\net6.0\ProjetoPedido.deps.json
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\bin\Debug\net6.0\ProjetoPedido.runtimeconfig.json
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\bin\Debug\net6.0\ProjetoPedido.dll
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\bin\Debug\net6.0\ref\ProjetoPedido.dll
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\bin\Debug\net6.0\ProjetoPedido.pdb
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ProjetoPedido.dll
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ref\ProjetoPedido.dll
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ProjetoPedido.pdb
+C:\Users\Bruno\source\repos\ProjetoPedido\ProjetoPedido\obj\Debug\net6.0\ProjetoPedido.genruntimeconfig.cache
