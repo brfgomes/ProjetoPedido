@@ -65,6 +65,7 @@ namespace ProjetoPedido.Negocios
             pedido.IDPEDIDO = 1;
             pedido.IDCLIENTE = 1;
             pedido.IDPEDIDOITEM = 1;
+            pedido.DATAPEDIDO = DateTime.Now;
             double total = (pedidoitem.QNTPROD1 * produto1.PRECOPRODUTO) +
                            (pedidoitem.QNTPROD2 * produto2.PRECOPRODUTO) +
                            (pedidoitem.QNTPROD3 * produto3.PRECOPRODUTO);
@@ -73,14 +74,13 @@ namespace ProjetoPedido.Negocios
 
 
             //INSERIR O CABECALHO FINAL DO PEDIDO.
+            
             Classes.CabecalhoDoPedido CabecaPedido = new Classes.CabecalhoDoPedido();
             CabecaPedido.IDCABECALHOPEDIDO = 1;
-            CabecaPedido.IDCLIENTE = 1;
-            CabecaPedido.IDPRODUTO = 1;
             CabecaPedido.IDPEDIDO = 1;
-            CabecaPedido.IDPEDIDOITEM = 1;
+            
 
-            //agora no caso só bastaria exibir em um frm, ou no console chamando a classe do cabecalhopedido
+            //agora no caso só bastaria EXIBIR em um frm, ou no console chamando a classe do cabecalhopedido
 
 
 
