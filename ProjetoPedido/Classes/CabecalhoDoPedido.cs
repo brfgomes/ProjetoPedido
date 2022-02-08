@@ -4,20 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoPedido
+namespace ProjetoPedido.Negocios
 {
-    class Program
+    public class CriaPedido
     {
-
-        static void Main()
+        public void InserirPedido()
         {
             //INSERIR CLIENTE
-            List<Classes.Cliente> clientes = new List<Classes.Cliente>();
             Classes.Cliente cliente = new Classes.Cliente();
 
             cliente.IDCLIENTE = 1;
             cliente.NOMECLIENTE = "Bruno";
-            clientes.Add(cliente);
 
             //INSERIR PRODUTO
             List<Classes.Produto> listaprodutos = new List<Classes.Produto>();
@@ -77,25 +74,18 @@ namespace ProjetoPedido
 
 
             //INSERIR O CABECALHO FINAL DO PEDIDO.
-
+            
             Classes.CabecalhoDoPedido CabecaPedido = new Classes.CabecalhoDoPedido();
             CabecaPedido.IDCABECALHOPEDIDO = 1;
             CabecaPedido.IDPEDIDO = 1;
-
-
-            Classes.Cliente clienteEscolhido = clientes.Find(cliente => cliente.IDCLIENTE == pedido.IDCLIENTE);
-
-            if (clienteEscolhido == null)
-            {
-                Console.WriteLine("Cliente, não encontrado!");
-            }
-            else {
-                Console.WriteLine($"Nome do Cliente: {clienteEscolhido.NOMECLIENTE}");
-            }
-
-            console.WriteLine($"{}");
+            
 
             //agora no caso só bastaria EXIBIR em um frm, ou no console chamando a classe do cabecalhopedido
+
+
+
+
+
 
         }
 
