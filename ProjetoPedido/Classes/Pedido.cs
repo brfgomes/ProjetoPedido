@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,15 +8,11 @@ namespace ProjetoPedido.Classes
 {
     public class Pedido
     {
-
-
-        ~Pedido()
-        { }
-
-        private int IdPedido;
-        private int IdCliente;
-        private int IdPedidoItem;
-        private double TotalPedido;
+        private int IdPedido = 0;
+        private int IdCliente = 0;
+        private int IdPedidoItem = 0;
+        private double TotalPedido = 0;
+        public DateTime DataPedido; 
 
         public int IDPEDIDO
         {
@@ -50,7 +46,13 @@ namespace ProjetoPedido.Classes
 
         }
 
-        
+        public DateTime DATAPEDIDO
+        {
+            get { return DataPedido; }
+            set { DataPedido = value; }
+        }
+
+
 
 
     }
