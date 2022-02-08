@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -70,6 +70,22 @@ namespace ProjetoPedido.Negocios
                            (pedidoitem.QNTPROD3 * produto3.PRECOPRODUTO);
 
             pedido.TOTALPEDIDO = (total);
+
+
+            //INSERIR O CABECALHO FINAL DO PEDIDO.
+            Classes.CabecalhoDoPedido CabecaPedido = new Classes.CabecalhoDoPedido();
+            CabecaPedido.IDCABECALHOPEDIDO = 1;
+            CabecaPedido.IDCLIENTE = 1;
+            CabecaPedido.IDPRODUTO = 1;
+            CabecaPedido.IDPEDIDO = 1;
+            CabecaPedido.IDPEDIDOITEM = 1;
+
+            //agora no caso só bastaria exibir em um frm, ou no console chamando a classe do cabecalhopedido
+
+
+
+
+
 
         }
 
